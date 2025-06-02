@@ -1,0 +1,43 @@
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+env/
+
+# VSCode
+.vscode/
+
+# Databricks e Spark
+.dbfs/
+.dbc/
+*.dbc
+*.parquet
+*.delta
+
+# Dados intermediários e resultados
+bronze/
+silver/
+gold/
+
+# Notebooks temporários e checkpoints
+*.ipynb_checkpoints/
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# Arquivos
+Assignment - Data Engineer 1.docx
+
+# Exceções: arquivos que devem ser versionados
+!info_transportes.csv
+!README_info_transportes.md
+!info_transportes.ipynb
